@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.img,header{
+	display: block;
+}
+.header{
+    border: 1px solid #ccc;
+}
+.nav,header,img{
+	display: block;
+}
+html,body{
+	height: 100%;
+}
+body{
+	display: flex;
+}
+.topLeft>header img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 10px 10px 10px 20px;
+}
+.leftDiv {
+	height: 600px;
+    width: 17%;
+    background:#34a782;
+    color: white;
+    display: inline-block;
+
+}
+.contentLeft li {
+    padding: 10px 0;
+    line-height: 30px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.contentLeft li:hover{
+	color:#3d556d;
+	background-color: #ccc;
+}
+.contentLeft nav{
+	height: calc(100% - 60px);
+	
+}
+.contentLeft {
+    padding-top: 20px;
+}
+.topLeft {
+    height: 50px;
+    line-height: 50px;
+    background: #3D556D;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+.contentLeft i:first-child {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.contentLeft i:last-child {
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.topRight {
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+.noticeDiv{
+    display: inline-block;
+}
+.topRight>header img{
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 10px 20px;
+}
+.rightDiv{
+    height: 600px;
+	width: 83%;
+	float: right;
+	background-color: #ccc;
+}
+.rightDiv .contentRight{
+height: calc(100% - 60px);
+	overflow: auto;
+	padding: 10px;
+}
+.rightDiv .topRight {
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+.topRight .infoDiv {
+    float: right;
+    line-height: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+.info span, img {
+    padding-left: 0;
+    vertical-align: middle;
+    display: inline-block;
+    float: none;
+}
+.infoDiv span {
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.contentRight{
+	padding-top: 20px;
+    height:calc(100%-60px);
+    background-color: #fff;
+}
+.contentRight .img{
+    padding-top: 20px;
+    width: 100%;
+}
+
+
+/*表格div*/
+.table-div{
+	margin-top:10px;
+}
+/*表格内的图标颜色*/
+.table-div td i{
+	cursor: pointer;
+	margin-right:10px;
+}
+.table-div td i:last-child{
+	margin-right:10px;
+}
+.table-div td i[title=编辑]{
+	color:#5cb85c;
+}
+.table-div td i[title=删除]{
+	color:#c9302c;
+}
+/*info*/
+
+.optionDiv{
+    overflow: hidden;
+    background-color: #fff;
+}
+.optionDiv select {
+    width: 200px;
+    height: 30px;
+}
+.optionDiv * {
+    float: left;
+    margin-right: 5px;
+}
+.button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
